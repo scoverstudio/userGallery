@@ -1,0 +1,33 @@
+.form-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100vh;
+  
+  form {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #5b5555;
+
+    .form-group {
+      width: fit-content;
+      margin-bottom: 10px;
+      label {
+        display: block;
+        width: 135px !important;
+      }
+
+      input {
+        padding: 5px;
+        border-radius: 5px;
+        width: 300px;
+        border: 1px solid gray;
+      }
+    }
+
+    .submit-btn {
+      margin-top: 20px;
+      padding: 5px 15px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  h2 {
+    width: 100%;
+  }
+
+  .users {
+    display: flex;
+    gap: 10px;
+
+    .user-data {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #4d4d4d;
+      padding: 10px;
+      border-radius: 10px;
+      width: 300px;
+      cursor: pointer;
+
+      span {
+        width: 100%;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

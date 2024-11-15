@@ -1,0 +1,26 @@
+.dashboard {
+    margin: 15px;
+    h2 {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+        }
+    }
+
+    .gallery-label {
+        padding: 20px 0;
+    }
+
+    .gallery-content {
+        background-color: gray;
+        padding: 20px;
+    }
+
+    .add-photo{
+        margin-top: 50px;
+    }
+}
